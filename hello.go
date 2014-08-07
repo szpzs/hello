@@ -2,8 +2,9 @@ package main
 
 import (
 	"fmt"
+	"github.com/szpzs/newmath"
 )
 
 func main() {
-	fmt.Println("Hello, world.景德大帝！！！\n")
+	fmt.Printf("Hello, world. Sqrt(2) = %v\n", newmath.Sqrt(2))
 }
